@@ -8,7 +8,7 @@
     <view class="page-body-wording">
       <form catchsubmit="submit">
         <label>URL:</label>
-        <input name="url" placeholder="输入URL" />
+        <input name="url" placeholder="输入百度URL" value="https://www.baidu.com/" />
         <button formType="submit" >发送请求</button>
         <text>{{content}}</text>
       </form>
